@@ -1,0 +1,2 @@
+ray >= 1.2
+jupyterlab >= 3.0
