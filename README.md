@@ -1,7 +1,7 @@
 # A Guided Tour of Ray Core
 
 An introductory tutorial about leveraging [Ray](https://docs.ray.io/en/master/)
-Ray core features for distributed patterns.
+core features for distributed patterns.
 
 
 ## Getting Started
@@ -31,7 +31,7 @@ to run examples in this repo:
 jupyter-lab
 ```
 
-Then browse to <http://localhost:8889/lab>
+Then browse to <http://localhost:8888/lab>
 
 
 ## Recommended Reading
