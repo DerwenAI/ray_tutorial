@@ -7,6 +7,9 @@ Note: these examples have been tested using Python 3.7+ on:
   * Ubuntu 18.04 LTS
   * macOS 10.13
 
+The accompanying slides are available at:
+<https://github.com/DerwenAI/ray_tutorial/blob/main/slides.pdf>
+
 
 ## Getting Started
 
