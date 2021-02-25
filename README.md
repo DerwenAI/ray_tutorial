@@ -3,8 +3,9 @@
 An introductory tutorial about leveraging [Ray](https://docs.ray.io/en/master/)
 core features for distributed patterns.
 
-Note: this code has been tested with Python 3.7 on macOS 10.13 and
-Ubuntu 18.04 LTS.
+Note: these examples have been tested using Python 3.7+ on:
+  * Ubuntu 18.04 LTS
+  * macOS 10.13
 
 
 ## Getting Started
@@ -35,6 +36,16 @@ jupyter-lab
 ```
 
 Then browse to <http://localhost:8888/lab>
+
+
+## Outline
+
+  * Remote Functions: [`ex_remo_func.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_remo_func.ipynb)
+  * Remote Objects: [`ex_remo_objs.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_remo_objs.ipynb)
+  * Remote Methods: [`ex_remo_meth.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_remo_meth.ipynb)
+  * Multiprocessing Pool: [`ex_mult_pool.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_mult_pool.ipynb)
+  * Parallel Iterators: [`ex_para_iter.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_para_iter.ipynb)
+  * JobLib: [`ex_job_lib.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_job_lib.ipynb)
 
 
 ## Recommended Reading
