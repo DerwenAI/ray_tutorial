@@ -76,6 +76,12 @@ level components in Ray, such as RLlib and Ray Tune.
   * Some prior experience developing code in Python
   * Basic understanding of distributed systems
 
+### Key Takeaways
+
+  * What are the Ray core features and how to use them?
+  * In which contexts are the different approaches indicated?
+  * Trade-offs (compute cost, memory, I/O, etc.) made
+
 ### Course Outline
 
   1. Introduction to Ray core features as a *pattern language* for distributed systems
