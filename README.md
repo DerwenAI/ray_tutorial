@@ -4,11 +4,11 @@ An introductory tutorial about leveraging [Ray](https://docs.ray.io/en/master/)
 core features for distributed patterns.
 
 Note: these examples have been tested using Python 3.7+ on:
-  * Ubuntu 18.04 LTS
-  * macOS 10.13
 
-The accompanying slides are available at:
-<https://github.com/DerwenAI/ray_tutorial/blob/main/slides.pdf>
+  - Ubuntu 18.04 LTS
+  - macOS 10.13
+
+See the accompanying `slides.pdf` file for presentation slide deck.
 
 
 ## Getting Started
@@ -82,12 +82,12 @@ level components in Ray, such as RLlib and Ray Tune.
   2. Overview of the main Ray core features and their intended usage
   3. Background, primary sources, and closely related resources about distributed systems
   4. Code samples:
-    4.1. Remote Functions: [`ex_remo_func.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_remo_func.ipynb)
-    4.2. Remote Objects: [`ex_remo_objs.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_remo_objs.ipynb)
-    4.3. Remote Methods: [`ex_remo_meth.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_remo_meth.ipynb)
-    4.4. Multiprocessing Pool: [`ex_mult_pool.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_mult_pool.ipynb)
-    4.5. JobLib: [`ex_job_lib.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_job_lib.ipynb)
-    4.6. Parallel Iterators: [`ex_para_iter.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_para_iter.ipynb)
+    * Remote Functions: [`ex_remo_func.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_remo_func.ipynb)
+	* Remote Objects: [`ex_remo_objs.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_remo_objs.ipynb)
+	* Remote Methods: [`ex_remo_meth.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_remo_meth.ipynb)
+	* Multiprocessing Pool: [`ex_mult_pool.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_mult_pool.ipynb)
+	* JobLib: [`ex_job_lib.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_job_lib.ipynb)
+	* Parallel Iterators: [`ex_para_iter.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_para_iter.ipynb)
    5. Summary: comparing trade-offs and overhead
    6. Ray Summit, Anyscale Connect, developer forums, and other resources
    7. Q&A
