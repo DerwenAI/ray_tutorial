@@ -26,34 +26,74 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-Then install the required dependencies:
+Then use `pip` to install the required dependencies:
 ```
 pip install -U pip
 pip install -r requirements.txt
 ```
 
-Launch the [JupyterLab](https://jupyterlab.readthedocs.io/) environment
-to run examples in this repo:
+Alternatively, if you use `conda` for installing Python packages:
+```
+conda create -n ray_tutorial python=3.7
+conda activate ray_tutorial
+pip install -r requiremnets
+```
+
+Note: if you run into any problems on Python 3.8+ with "wheels"
+during a `pip` installation, you may need to use the `conda`
+approach instead.
+
+Then launch the [JupyterLab](https://jupyterlab.readthedocs.io/) 
+environment to run examples in this repo:
 ```
 jupyter-lab
 ```
 
-Then browse to <http://localhost:8888/lab>
+Browse to <http://localhost:8888/lab> to continue.
 
 
-## Examples in Notebooks
+## Syllabus
 
-| pattern | notebook |
-| ------- | -------- |
-| Remote Functions | [`ex_remo_func.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_remo_func.ipynb) |
-| Remote Objects | [`ex_remo_objs.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_remo_objs.ipynb) |
-| Remote Methods | [`ex_remo_meth.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_remo_meth.ipynb) |
-| Parallel Iterators | [`ex_para_iter.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_para_iter.ipynb) |
-| Multiprocessing Pool | [`ex_mult_pool.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_mult_pool.ipynb) |
-| JobLib | [`ex_job_lib.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_job_lib.ipynb) |
+### Overview
+
+*A Guided Tour of Ray Core* covers an introductory, hands-on coding
+tour through the core features of Ray, which provide powerful yet
+easy-to-use design patterns for implementing distributed systems in
+Python. This training includes a brief talk to provide overview of
+concepts, then coding for remote functions, actors, parallel
+iterators, and so on. Then we'll follow with Q&A. All code is
+available in notebooks in the GitHub repo.
+
+### Intended Audience
+
+  * Python developers who want to learn how to parallelize their application code
+
+Note: this material is not intended as an introduction to the higher
+level components in Ray, such as RLlib and Ray Tune.
+
+### Prerequisites
+
+  * Some prior experience developing code in Python
+  * Basic understanding of distributed systems
+
+### Course Outline
+
+  1. Introduction to Ray core features as a *pattern language* for distributed systems
+  2. Overview of the main Ray core features and their intended usage
+  3. Background, primary sources, and closely related resources about distributed systems
+  4. Code samples:
+    4.1. Remote Functions: [`ex_remo_func.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_remo_func.ipynb)
+    4.2. Remote Objects: [`ex_remo_objs.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_remo_objs.ipynb)
+    4.3. Remote Methods: [`ex_remo_meth.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_remo_meth.ipynb)
+    4.4. Multiprocessing Pool: [`ex_mult_pool.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_mult_pool.ipynb)
+    4.5. JobLib: [`ex_job_lib.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_job_lib.ipynb)
+    4.6. Parallel Iterators: [`ex_para_iter.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_para_iter.ipynb)
+   5. Summary: comparing trade-offs and overhead
+   6. Ray Summit, Anyscale Connect, developer forums, and other resources
+   7. Q&A
 
 
-## Recommended Reading
+## Other Recommended Reading
 
   * [*Ray Design Patterns*](https://docs.google.com/document/d/167rnnDFIVRhHhK4mznEIemOtj63IOhtIPvSYaPgI4Fg/edit#heading=h.crt5flperkq3)
   * UC Berkeley EECS ["Our Pattern Language"](https://patterns.eecs.berkeley.edu/)
