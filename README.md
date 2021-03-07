@@ -36,7 +36,7 @@ Alternatively, if you use `conda` for installing Python packages:
 ```
 conda create -n ray_tutorial python=3.7
 conda activate ray_tutorial
-pip install -r requiremnets
+pip install -r requirements.txt
 ```
 
 Note: if you run into any problems on Python 3.8+ with "wheels"
