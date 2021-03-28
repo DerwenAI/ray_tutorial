@@ -28,15 +28,15 @@ source venv/bin/activate
 
 Then use `pip` to install the required dependencies:
 ```
-pip install -U pip
-pip install -r requirements.txt
+python3 -m pip install -U pip
+python3 -m pip install -r requirements.txt
 ```
 
 Alternatively, if you use `conda` for installing Python packages:
 ```
 conda create -n ray_tutorial python=3.7
 conda activate ray_tutorial
-pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 
 Note: if you run into any problems on Python 3.8+ with "wheels"
@@ -80,7 +80,7 @@ level components in Ray, such as RLlib and Ray Tune.
 
   * What are the Ray core features and how to use them?
   * In which contexts are the different approaches indicated?
-  * Trade-offs (compute cost, memory, I/O, etc.) made
+  * When to make trade-offs (compute cost, memory, I/O, etc.) ?
 
 ### Course Outline
 
@@ -89,12 +89,13 @@ level components in Ray, such as RLlib and Ray Tune.
   3. Background, primary sources, and closely related resources about distributed systems
   4. Code samples:
     * Remote Functions: [`ex_remo_func.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_remo_func.ipynb)
-	* Remote Objects: [`ex_remo_objs.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_remo_objs.ipynb)
-	* Remote Methods: [`ex_remo_meth.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_remo_meth.ipynb)
-	* Multiprocessing Pool: [`ex_mult_pool.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_mult_pool.ipynb)
-	* JobLib: [`ex_job_lib.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_job_lib.ipynb)
-	* Parallel Iterators: [`ex_para_iter.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_para_iter.ipynb)
-   5. Summary: comparing trade-offs and overhead
+    * Remote Objects: [`ex_remo_objs.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_remo_objs.ipynb)
+    * Remote Methods: [`ex_remo_meth.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_remo_meth.ipynb)
+    * Multiprocessing Pool: [`ex_mult_pool.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_mult_pool.ipynb)
+    * JobLib: [`ex_job_lib.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_job_lib.ipynb)
+    * Parallel Iterators: [`ex_para_iter.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_para_iter.ipynb)
+   5. Profiling: comparing trade-offs and overhead
+    * Estimate Pi: [`pi.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/pi.ipynb)
    6. Ray Summit, Anyscale Connect, developer forums, and other resources
    7. Q&A
 
