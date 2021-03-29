@@ -80,7 +80,7 @@ level components in Ray, such as RLlib and Ray Tune.
 
   * What are the Ray core features and how to use them?
   * In which contexts are the different approaches indicated?
-  * Profiling approachs, to decide when to make trade-offs (compute cost, memory, I/O, etc.) ?
+  * Profiling methods, to decide when to make trade-offs (compute cost, memory, I/O, etc.) ?
 
 ### Course Outline
 
