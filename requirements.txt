@@ -1,6 +1,11 @@
+# fixing the inanity of Ray `requirements.txt`
+yarl==1.4.2 --no-binary=yarl
+multidict==4.7.3 --no-binary=multidict
+
+# back to our regularly scheduled broadcast...
 graphviz >= 0.14
 icecream >= 1.2
-jupyterlab >= 1.1
+jupyterlab >= 3.0
 matplotlib >= 3.3
 numpy >= 1.20
 objgraph >= 3.5
