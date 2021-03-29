@@ -1,0 +1,2 @@
+codespell
+pre-commit
