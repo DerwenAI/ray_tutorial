@@ -80,7 +80,7 @@ level components in Ray, such as RLlib and Ray Tune.
 
   * What are the Ray core features and how to use them?
   * In which contexts are the different approaches indicated?
-  * When to make trade-offs (compute cost, memory, I/O, etc.) ?
+  * Profiling approachs, to decide when to make trade-offs (compute cost, memory, I/O, etc.) ?
 
 ### Course Outline
 
@@ -107,3 +107,7 @@ level components in Ray, such as RLlib and Ray Tune.
   * [Anyscale Academy](https://github.com/anyscale/academy)
   * [Ray Tutorial](https://github.com/ray-project/tutorial)
   * [`python-patterns`](https://github.com/faif/python-patterns)
+  * [*Python Data Science*](https://jakevdp.github.io/PythonDataScienceHandbook/01.07-timing-and-profiling.html)
+  * ["Profiling and Optimizing Jupyter Notebooks"](https://towardsdatascience.com/speed-up-jupyter-notebooks-20716cbe2025)
+
+
