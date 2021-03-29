@@ -1,4 +1,6 @@
-# fixing the inanity of Ray `requirements.txt`
+# Ray `requirements.txt` tends to fail on some systems -
+# the following is provisional, attempts to resolve issues
+# with wheels and XCode/gcc conflicts on macOS:
 yarl==1.4.2 --no-binary=yarl
 multidict==4.7.3 --no-binary=multidict
 
