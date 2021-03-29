@@ -1,5 +1,13 @@
+graphviz >= 0.14
 icecream >= 1.2
-jupyterlab >= 3.0
+jupyterlab >= 1.1
+matplotlib >= 3.3
+numpy >= 1.20
+objgraph >= 3.5
+pandas >= 1.1
+pyinstrument >= 3.4
 ray >= 1.2
 scikit-image >= 0.15
 scikit-learn >= 0.20
+snakeviz >= 2.1
+watermark >= 2.2
