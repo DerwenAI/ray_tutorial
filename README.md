@@ -1,14 +1,18 @@
 # A Guided Tour of Ray Core
 
-An introductory tutorial about leveraging [Ray](https://docs.ray.io/en/master/)
+An introductory tutorial about leveraging [Ray](https://docs.ray.io/)
 core features for distributed patterns.
 
-Note: these examples have been tested using Python 3.7+ on:
+These examples have been tested using Python **3.6**, **3.7**, **3.8**
+in the following environments:
 
   - Ubuntu 18.04 LTS
   - macOS 10.13
 
-See the accompanying `slides.pdf` file for presentation slide deck.
+Currently, Python **3.9** is not supported by Ray.
+
+See the `slides.pdf` file for the presentation slide deck that
+accompanies this tutorial.
 
 
 ## Getting Started
@@ -39,7 +43,7 @@ conda activate ray_tutorial
 python3 -m pip install -r requirements.txt
 ```
 
-Note: if you run into any problems on Python 3.8+ with "wheels"
+Note: if you run into any problems on Python 3.8 with "wheels"
 during a `pip` installation, you may need to use the `conda`
 approach instead.
 
@@ -109,5 +113,3 @@ level components in Ray, such as RLlib and Ray Tune.
   * [`python-patterns`](https://github.com/faif/python-patterns)
   * [*Python Data Science*](https://jakevdp.github.io/PythonDataScienceHandbook/01.07-timing-and-profiling.html)
   * ["Profiling and Optimizing Jupyter Notebooks"](https://towardsdatascience.com/speed-up-jupyter-notebooks-20716cbe2025)
-
-
