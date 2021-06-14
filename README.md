@@ -3,11 +3,15 @@
 An introductory tutorial about leveraging [Ray](https://docs.ray.io/)
 core features for distributed patterns.
 
-These examples have been tested using Python **3.6**, **3.7**, **3.8**
-in the following environments:
+These examples have been tested in the following environments:
 
   - Ubuntu 18.04 LTS
-  - macOS 10.13
+  - macOS 10.15
+
+Using:
+
+  - Ray versions 1.2, 1.3, 1.4 (not the early release candidates)
+  - Python versions: 3.6, 3.7, 3.8
 
 Currently, Python **3.9** is not supported by Ray.
 
