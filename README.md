@@ -96,12 +96,12 @@ level components in Ray, such as RLlib and Ray Tune.
   2. Overview of the main Ray core features and their intended usage
   3. Background, primary sources, and closely related resources about distributed systems
   4. Code samples:
-		* Remote Functions: [`ex_remo_func.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_remo_func.ipynb)
-		* Remote Objects: [`ex_remo_objs.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_remo_objs.ipynb)
-		* Remote Methods: [`ex_remo_meth.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_remo_meth.ipynb)
-		* Multiprocessing Pool: [`ex_mult_pool.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_mult_pool.ipynb)
-		* JobLib: [`ex_job_lib.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_job_lib.ipynb)
-		* Parallel Iterators: [`ex_para_iter.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_para_iter.ipynb)
+		* Remote Functions: [`ex_01_remo_func.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_01_remo_func.ipynb)
+		* Remote Objects: [`ex_02_remo_objs.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_02_remo_objs.ipynb)
+		* Remote Methods: [`ex_03_remo_meth.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_03_remo_meth.ipynb)
+		* Multiprocessing Pool: [`ex_04_mult_pool.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_04_mult_pool.ipynb)
+		* JobLib: [`ex_05_job_lib.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_05_job_lib.ipynb)
+		* Parallel Iterators: [`ex_06_para_iter.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_06_para_iter.ipynb)
    5. Profiling: comparing trade-offs and overhead
 		* Estimate Pi: [`pi.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/pi.ipynb)
    6. Ray Summit, Anyscale Connect, developer forums, and other resources
