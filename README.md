@@ -1,6 +1,3 @@
-**ADVISORY: this code should work well with Ray 1.2.x although all bets are off for any subsequent releases of Ray, which tend to have some crazy warnings and extremely odd behaviors. Many of the product use cases for Ray are holding back at release 1.1.x – caveat emptor**
-
-
 # A Guided Tour of Ray Core
 
 An introductory tutorial about leveraging [Ray](https://docs.ray.io/)
