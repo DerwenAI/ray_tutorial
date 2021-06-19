@@ -112,9 +112,10 @@ level components in Ray, such as RLlib and Ray Tune.
 
   * [*Ray Design Patterns*](https://docs.google.com/document/d/167rnnDFIVRhHhK4mznEIemOtj63IOhtIPvSYaPgI4Fg/edit#heading=h.crt5flperkq3)
   * UC Berkeley EECS ["Our Pattern Language"](https://patterns.eecs.berkeley.edu/)
+  * ["Futures and Promises"](http://dist-prog-book.com/chapter/2/futures.html)
   * ["Ray Distributed Library Patterns"](https://www.anyscale.com/blog/ray-distributed-library-patterns)
-  * [Anyscale Academy](https://github.com/anyscale/academy)
-  * [Ray Tutorial](https://github.com/ray-project/tutorial)
   * [`python-patterns`](https://github.com/faif/python-patterns)
   * [*Python Data Science*](https://jakevdp.github.io/PythonDataScienceHandbook/01.07-timing-and-profiling.html)
   * ["Profiling and Optimizing Jupyter Notebooks"](https://towardsdatascience.com/speed-up-jupyter-notebooks-20716cbe2025)
+  * [Anyscale Academy](https://github.com/anyscale/academy)
+  * [Ray Tutorial](https://github.com/ray-project/tutorial)
