@@ -1,5 +1,4 @@
 graphviz >= 0.14
-icecream >= 1.2
 jupyterlab >= 3.0
 matplotlib >= 3.3
 numpy >= 1.19
