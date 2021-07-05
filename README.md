@@ -38,6 +38,7 @@ Then use `pip` to install the required dependencies:
 ```
 python3 -m pip install -U pip
 python3 -m pip install -r requirements.txt
+python -m ipykernel install
 ```
 
 Alternatively, if you use `conda` for installing Python packages:
@@ -45,6 +46,7 @@ Alternatively, if you use `conda` for installing Python packages:
 conda create -n ray_tutorial python=3.7
 conda activate ray_tutorial
 python3 -m pip install -r requirements.txt
+conda install ipykernel --name Python3
 ```
 
 Note: if you run into any problems on Python 3.8 with "wheels"
