@@ -6,11 +6,11 @@ core features for distributed patterns.
 These examples have been tested in the following environments:
 
   - Ubuntu 18.04 LTS
-  - macOS 10.15
+  - macOS 11.6, Big Sur
 
 Using:
 
-  - Ray versions 1.2, 1.3, 1.4 (not the early release candidates)
+  - Ray versions 1.7+ (not the early release candidates)
   - Python versions: 3.6, 3.7, 3.8
 
 Currently, Python **3.9** is not supported by Ray.
@@ -70,9 +70,10 @@ Browse to <http://localhost:8888/lab> to continue.
 tour through the core features of Ray, which provide powerful yet
 easy-to-use design patterns for implementing distributed systems in
 Python. This training includes a brief talk to provide overview of
-concepts, then coding for remote functions, actors, parallel
-iterators, and so on. Then we'll follow with Q&A. All code is
-available in notebooks in the GitHub repo.
+concepts, then coding for remote functions, tasks, object references and 
+resolutions, actors, and so on. 
+
+Then we'll follow with Q&A. All code is available in notebooks in the GitHub repo.
 
 ### Intended Audience
 
@@ -99,11 +100,11 @@ level components in Ray, such as RLlib and Ray Tune.
   3. Background, primary sources, and closely related resources about distributed systems
   4. Code samples:
 		* Remote Functions: [`ex_01_remo_func.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_01_remo_func.ipynb)
+		* Remote Functions: [`ex_02_remo_func.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_02_remo_func.ipynb)
 		* Remote Objects: [`ex_02_remo_objs.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_02_remo_objs.ipynb)
 		* Remote Methods: [`ex_03_remo_meth.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_03_remo_meth.ipynb)
 		* Multiprocessing Pool: [`ex_04_mult_pool.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_04_mult_pool.ipynb)
 		* JobLib: [`ex_05_job_lib.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_05_job_lib.ipynb)
-		* Parallel Iterators: [`ex_06_para_iter.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/ex_06_para_iter.ipynb)
    5. Profiling: comparing trade-offs and overhead
 		* Estimate Pi: [`pi.ipynb`](https://github.com/DerwenAI/ray_tutorial/blob/main/pi.ipynb)
    6. Ray Summit, Anyscale Connect, developer forums, and other resources
