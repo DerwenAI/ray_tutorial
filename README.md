@@ -75,6 +75,8 @@ the docker compose will start a jupyter lab service without token
 
 Browse to <http://localhost:8888/lab> to continue.
 
+for the convenient the container using network_mode: host (for ray dashboard / jupyter)
+
 ## Syllabus
 
 ### Overview
