@@ -1,0 +1,9 @@
+version: '2.3'
+services:
+  jupyter-lab:
+    build: .
+    volumes:
+      - .:/ray_tutorial
+    ports:
+        - 8888:8888
+    command: jupyter lab --ip=0.0.0.0 --allow-root --NotebookApp.token=''

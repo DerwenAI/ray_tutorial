@@ -27,6 +27,8 @@ git clone https://github.com/DerwenAI/ray_tutorial.git
 cd ray_tutorial
 ```
 
+### Getting Started with virtual environment
+
 Set up a local [*virtual environment*](https://docs.python.org/3/library/venv.html) 
 and activate it:
 ```
@@ -61,6 +63,17 @@ jupyter-lab
 
 Browse to <http://localhost:8888/lab> to continue.
 
+### Getting start with docker-compose up
+
+install [docker](https://docs.docker.com/engine/install/) and [docker-compose](https://docs.docker.com/compose/install/)
+
+```bash
+docker-compose up -d
+```
+
+the docker compose will start a jupyter lab service without token
+
+Browse to <http://localhost:8888/lab> to continue.
 
 ## Syllabus
 
