@@ -1,0 +1,8 @@
+version: '2.3'
+services:
+  jupyter-lab:
+    build: .
+    volumes:
+      - .:/ray_tutorial
+    command: jupyter lab --ip=0.0.0.0 --allow-root --NotebookApp.token=''
+    network_mode: "host"
