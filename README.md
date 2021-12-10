@@ -10,10 +10,8 @@ These examples have been tested in the following environments:
 
 Using:
 
-  - Ray versions 1.7+ (not the early release candidates)
+  - Ray versions 1.7+
   - Python versions: 3.6, 3.7, 3.8
-
-Currently, Python **3.9** is not supported by Ray.
 
 See the `slides.pdf` file for the presentation slide deck that
 accompanies this tutorial.
@@ -22,29 +20,29 @@ accompanies this tutorial.
 ## Getting Started
 
 To get started use `git` to clone this public repository:
-```
+```bash
 git clone https://github.com/DerwenAI/ray_tutorial.git
 cd ray_tutorial
 ```
 
-### Getting Started with virtual environment
+### Getting Started with a Virtual Environment
 
 Set up a local [*virtual environment*](https://docs.python.org/3/library/venv.html) 
 and activate it:
-```
+```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
 Then use `pip` to install the required dependencies:
-```
+```bash
 python3 -m pip install -U pip
 python3 -m pip install -r requirements.txt
 python -m ipykernel install
 ```
 
 Alternatively, if you use `conda` for installing Python packages:
-```
+```bash
 conda create -n ray_tutorial python=3.7
 conda activate ray_tutorial
 python3 -m pip install -r requirements.txt
@@ -57,25 +55,27 @@ approach instead.
 
 Then launch the [JupyterLab](https://jupyterlab.readthedocs.io/) 
 environment to run examples in this repo:
-```
+```bash
 jupyter-lab
 ```
 
 Browse to <http://localhost:8888/lab> to continue.
 
-### Getting start with docker-compose up
 
-install [docker](https://docs.docker.com/engine/install/) and [docker-compose](https://docs.docker.com/compose/install/)
+### Getting started with Docker-Compose
 
+First, install [docker](https://docs.docker.com/engine/install/)
+and [docker-compose](https://docs.docker.com/compose/install/),
+then:
 ```bash
 docker-compose up -d
 ```
 
-the docker compose will start a jupyter lab service without token
+Docker compose will start a JupyterLab service without requiring use
+of a security token.
 
 Browse to <http://localhost:8888/lab> to continue.
 
-for the convenient the container using network_mode: host (for ray dashboard / jupyter)
 
 ## Syllabus
 
@@ -137,3 +137,12 @@ level components in Ray, such as RLlib and Ray Tune.
   * ["Profiling and Optimizing Jupyter Notebooks"](https://towardsdatascience.com/speed-up-jupyter-notebooks-20716cbe2025)
   * [Anyscale Academy](https://github.com/anyscale/academy)
   * [Ray Tutorial](https://github.com/ray-project/tutorial)
+
+
+## Kudos
+
+[@dmatrix](https://github.com/dmatrix),
+[@penolove](https://github.com/penolove),
+[@deanwampler](https://github.com/deanwampler),
+[@ceteri](https://github.com/ceteri).
+
