@@ -80,6 +80,11 @@ of a security token.
 
 Browse to <http://localhost:8888/lab> to continue.
 
+To stop this container:
+```bash
+docker-compose stop
+```
+
 
 ## Syllabus
 
