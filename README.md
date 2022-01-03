@@ -53,6 +53,10 @@ Note: if you run into any problems on Python 3.8 with "wheels"
 during a `pip` installation, you may need to use the `conda`
 approach instead.
 
+For some of the visualizations in `pi.ipynb` you also need to
+[install graphviz](https://graphviz.org/download/#executable-packages)
+
+
 Then launch the [JupyterLab](https://jupyterlab.readthedocs.io/) 
 environment to run examples in this repo:
 ```bash
@@ -75,6 +79,11 @@ Docker compose will start a JupyterLab service without requiring use
 of a security token.
 
 Browse to <http://localhost:8888/lab> to continue.
+
+To stop this container:
+```bash
+docker-compose stop
+```
 
 
 ## Syllabus
